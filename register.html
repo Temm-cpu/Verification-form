@@ -10,32 +10,55 @@
   <body>
     <h1>sign up</h1>
 
-    <form action="https://formspree.io/f/xayzzoll" 
-    method="POST"
-    class="form">
+    <!-- <form action="https://formspree.io/f/xayzzoll" method="POST" class="form">
       <div>
         <label for="name"> username</label>
-        <input class="name" type="text" />
+        <input name="name" class="name" type="text" />
       </div>
       <div>
         <label for="number"> phone-number</label>
-        <input class="number" type="number" />
+        <input name="number" class="number" type="number" />
       </div>
       <div>
         <label for="email"> E-mail</label>
-        <input class="email" type="email" />
+        <input name="email" class="email" type="email" />
       </div>
       <div>
         <label for="male"> male</label>
-        <input id="male" name="gender" class="radio" type="radio" value="male"/>
+        <input
+          id="male"
+          name="gender"
+          class="radio"
+          type="radio"
+          value="male"
+        />
         <label for="female"> female</label>
-        <input id="female" name="gender" class="radio" type="radio" value="female"/>
+        <input
+          id="female"
+          name="gender"
+          class="radio"
+          type="radio"
+          value="female"
+        />
       </div>
       <div>
         <label for="password"> password</label>
-        <input class="password" type="password" />
+        <input name="password" class="password" type="password" />
       </div>
       <button type="submit" class="submit">submit</button>
+    </form> -->
+
+    <form action="https://formspree.io/f/xayzzoll" method="POST">
+      <label>
+        Your email:
+        <input type="email" name="email" />
+      </label>
+      <label>
+        Your message:
+        <textarea name="message"></textarea>
+      </label>
+      <!-- your other form fields go here -->
+      <button type="submit">Send</button>
     </form>
 
     <a href="./login.html" class="login"> login</a>
