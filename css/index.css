@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  margin: 3px;
+}
+.register {
+  text-decoration: none;
+  color: black;
+  border: 2px solid red;
+  padding: 5px;
+  background-color: red;
+}

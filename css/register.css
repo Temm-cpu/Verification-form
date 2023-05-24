@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  margin: 3px 39rem;
+}
+input {
+  border: 2px dotted purple;
+  background-color: burlywood;
+}
+input:hover {
+  padding: 3px;
+  background-color: silver;
+}
+form {
+  align-items: center;
+  margin: 5px 39rem;
+}
+.login {
+  text-decoration: none;
+  color: black;
+  border: 2px solid red;
+  padding: 5px;
+  background-color: red;
+}
+button {
+  color: black;
+  border: 2px solid red;
+  padding: 5px;
+  background-color: red;
+}
